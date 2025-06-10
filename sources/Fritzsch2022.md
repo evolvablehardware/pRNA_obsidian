@@ -25,7 +25,7 @@ ___
 
 - Chunk Sorting
 	- Order CRAM chunks by height and write them in that order
-	- Increases the efficacy value persistence
+	- Increases the efficacy of value persistence
 
 ![[Pasted image 20250609135039.png]]
 - Not much detail is provided on the time it takes to compact the bitstreams ("the generation of the compacted bitstreams always took less than 0.3 s on an Intel i5-7200U CPU," while reconfiguration always took less than ~0.2s)
