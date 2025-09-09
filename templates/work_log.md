@@ -6,6 +6,10 @@
 
 <%*
 const filename = tp.file.title; // e.g., "06_09_2025"
+const filepath = tp.file.path(true); //get relative filepath work_log_isaac/2025-09-09.md
+const parts = filepath.split('/');
+parts.pop(); // removes the filename
+const folder = parts.join('/');
 const [year, month, day] = filename.split("-").map(Number);
 const date = new Date(year, month - 1, day);
 const dayOfWeek = date.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
@@ -26,6 +30,6 @@ nextDate.setDate(date.getDate() + 1);
 const pad = n => n.toString().padStart(2, '0');
 const prev = `${prevDate.getFullYear()}-${pad(prevDate.getMonth() + 1)}-${pad(prevDate.getDate())}`;
 const next = `${nextDate.getFullYear()}-${pad(nextDate.getMonth() + 1)}-${pad(nextDate.getDate())}`;
-tR += `[[${prev}|prev]] [[${next}|next]]`;
+tR += `[[${folder}/${prev}|prev]] [[${folder}/${next}|next]]`;
 -%>
 
