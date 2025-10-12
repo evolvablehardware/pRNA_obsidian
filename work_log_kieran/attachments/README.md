@@ -82,6 +82,8 @@ same name. For other package managers the package name may be different.
 For Debian-based distributions and other distributions that use `apt`,
 the packages can all be installed at once with the following commands:
 
+
+
 ```bash
 sudo apt update && sudo apt upgrade  # Optional, but recommended 
 sudo apt install build-essential clang bison flex libreadline-dev gawk tcl-dev libffi-dev libftdi-dev mercurial graphviz xdot \ 
