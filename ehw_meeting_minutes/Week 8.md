@@ -1,0 +1,14 @@
+**Standup**
+- Thomas
+	- Looked into adding simulation for evaluation.
+	- Finding DSP tile ASC configs
+- Isaac
+	- Didn't complete much
+	- Discussed with Dr. Yoder
+- Brooklyn
+	- Got super sick
+	- Didn't do much
+- Sandya
+	- None
+- Jackson
+	- USB manager - Working in 2 weeks
