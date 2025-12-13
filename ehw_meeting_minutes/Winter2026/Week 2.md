@@ -1,6 +1,6 @@
 ### Thomas:
 * arbitrary connection between luts and nets (as opposed to local tracks immediately adjacent to a net)
-* Will be looking to reimplement
+* Will be looking to re implement current evolutionary algorithms using this technique
 
 ### Sayura:
 * worked on catching up to speed/ reading documentation
@@ -10,7 +10,7 @@
 * process on the server completed
 * having trouble making a docker container for the project server
 	* To use usb-ip you need privilege
-	* Docker swarm doesn't support priveleged containers
+	* Docker swarm doesn't support privileged containers
 	* potential resolution by adding a udev rule
 ### Kieran:
 * researched obtaining data from labrador (simple scope)
