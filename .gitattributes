@@ -1,11 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# Markdown files should always use LF
-*.md text eol=lf
-
-# Other common text files
-*.txt text eol=lf
-*.json text eol=lf
-*.yml text eol=lf
-*.yaml text eol=lf
+# Ensure these are always treated as text (normalized to LF in repo)
+*.md text
+*.txt text
+*.json text
+*.yml text
+*.yaml text
