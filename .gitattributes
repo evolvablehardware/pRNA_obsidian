@@ -1,0 +1,9 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ensure these are always treated as text (normalized to LF in repo)
+*.md text
+*.txt text
+*.json text
+*.yml text
+*.yaml text
